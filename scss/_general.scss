@@ -417,10 +417,27 @@ footer {
             display: flex;
             a {
                 text-decoration: none;
-                &:hover > i {
-                    color: $white_col;
+                &:hover > .fa-twitter {
+                    color: #29ace2;
+                    transition-duration: 0.3s;
+                } 
+                &:hover > .fa-facebook-f {
+                    color: #496eab;
+                    transition-duration: 0.3s;
+                } 
+                &:hover > .fa-linkedin-in {
+                    color: #007bb6;
+                    transition-duration: 0.3s;
+                } 
+                &:hover > .fa-youtube {
+                    color: #fd0100;
+                    transition-duration: 0.3s;
+                } 
+                &:hover > .fa-instagram {
+                    color:  #df2d9b;
                     transition-duration: 0.3s;
                 }
+
             }
             &-item {
                 width: 42px;
@@ -429,7 +446,7 @@ footer {
                 border-radius: 50%;
                 margin-right: 7px;
                 &:hover {
-                    background-color: #9aa3afd3;
+                    background-color: #fff;
                     transition-duration: 0.3s;
                 }
                 .fab {

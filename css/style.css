@@ -552,8 +552,32 @@ footer .contacts-details .socials a {
   text-decoration: none;
 }
 
-footer .contacts-details .socials a:hover > i {
-  color: #ffffff;
+footer .contacts-details .socials a:hover > .fa-twitter {
+  color: #29ace2;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+footer .contacts-details .socials a:hover > .fa-facebook-f {
+  color: #496eab;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+footer .contacts-details .socials a:hover > .fa-linkedin-in {
+  color: #007bb6;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+footer .contacts-details .socials a:hover > .fa-youtube {
+  color: #fd0100;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+footer .contacts-details .socials a:hover > .fa-instagram {
+  color: #df2d9b;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
@@ -567,7 +591,7 @@ footer .contacts-details .socials-item {
 }
 
 footer .contacts-details .socials-item:hover {
-  background-color: #9aa3afd3;
+  background-color: #fff;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
