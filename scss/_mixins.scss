@@ -1,0 +1,12 @@
+@mixin h1_title {
+    color: $marengo_1;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+@mixin wrapper {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
