@@ -64,7 +64,7 @@ html {
     &-img {
         width: 469px;
         height: 214px;
-        background-color: $white_col;
+        background: url(../img/green-4819467_640.jpg) center center/cover no-repeat;
     }
 }
 
@@ -96,7 +96,10 @@ html {
         margin-left: 97px;
         width: 430px;
         height: 245px;
-        background-color: $marengo_1;
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 
@@ -170,7 +173,11 @@ html {
         .screenshots-img {
             width: 200px;
             height: 150px;
-            background-color: $marengo_1;
+            // background-color: $marengo_1;
+            img {
+                width: 100%;
+                height: 100%;
+            }
         }
         .screenshots-desc {
             margin-left: 15px;
@@ -210,7 +217,7 @@ html {
         display: flex;
         max-width: 574px;
         margin-bottom: 16px;
-        figure {
+        .reviews-desc {
             position: relative;
             max-width: 483px;
             margin-left: 16px;
@@ -227,7 +234,7 @@ html {
                 border-bottom: 11px solid transparent;
                 left: -10px;
             }
-            figcaption {
+            h3 {
                 margin-top: 10px;
                 color: $gray_col;
                 font-size: 14px;
@@ -245,8 +252,11 @@ html {
         .reviews-img {
             width: 75px;
             height: 75px;
-            background-color: $marengo_1;
             border-radius: 50%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
         }
         &:nth-last-child(-n+2) {
             margin-bottom: 0;
